@@ -2,13 +2,24 @@ git init: inicia el repositorio local.
 git touch: crea un nuevo archivo de text plano.
 git mkdir: crea una carpeta.
 git cat: lee el contenido de un archivo.
-git add: introduce los archivos en la zona de stading para se tracked.
-git commit: introduce los achivos que estan en stading al repositorio.
+git add: introduce los archivos en la zona de stagin para se tracked.
+git commit: introduce los achivos que estan en stagin al repositorio.
+git status: permite ver el estado del stagin.
 git rm: borra permanentemente el archivo.
-git rm --cached: borra los archivos de la zona de stading.
+git rm --cached: borra los archivos de la zona de stagin.
 git checkout /commit/: permite revisar la version del archivo en ese commit.
 git log: presenta el historial de commit.
 git log stat: presenta el historial de commit junto con los archivos y bts adicionales.
 git reset /commit/ --hard: toma el estado del /commit/ y borra permanetemente todos los archivos, actualizaciones
 y commits posterioles al /commit/.
 git pwd: muestra la carpeta en la que estas actualmente.
+
+//Avansados
+
+git clone url: clona el repositorio de la url, hace una copia del master y los archivos en el disco duro.
+git push: permite subir al repositorio remoto los cambios echos en el repositorio local(clon).
+/En caso de que un conpañero haga cambios en el repositorio remoto y se requieran los cambios se hace:
+git feach: trae los cambios al master local.
+git marge: trae los cambios del master al disco duro.
+/se puede aorrar comandos el el siguiente:
+git pull: hace lo que hace git feach y git marge.
