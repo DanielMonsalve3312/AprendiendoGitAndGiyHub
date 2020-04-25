@@ -2,3 +2,7 @@ git init: inicia el repositorio local.
 git touch: crea un nuevo archivo de text plano.
 git mkdir: crea una carpeta.
 git cat: lee el contenido de un archivo.
+git add: introduce los archivos en la zona de stading para se tracked.
+git commit: introduce los achivos que estan en stading al repositorio.
+git rm --hard: borra permanentemente el archivo.
+git rm --cached: borra los archivos de la zona de stading.
