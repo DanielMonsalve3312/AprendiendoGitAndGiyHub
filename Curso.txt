@@ -4,5 +4,11 @@ git mkdir: crea una carpeta.
 git cat: lee el contenido de un archivo.
 git add: introduce los archivos en la zona de stading para se tracked.
 git commit: introduce los achivos que estan en stading al repositorio.
-git rm --hard: borra permanentemente el archivo.
+git rm: borra permanentemente el archivo.
 git rm --cached: borra los archivos de la zona de stading.
+git checkout /commit/: permite revisar la version del archivo en ese commit.
+git log: presenta el historial de commit.
+git log stat: presenta el historial de commit junto con los archivos y bts adicionales.
+git reset /commit/ --hard: toma el estado del /commit/ y borra permanetemente todos los archivos, actualizaciones
+y commits posterioles al /commit/.
+git pwd: muestra la carpeta en la que estas actualmente.
