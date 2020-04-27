@@ -23,3 +23,9 @@ git feach: trae los cambios al master local.
 git marge: trae los cambios del master al disco duro.
 /se puede aorrar comandos el el siguiente:
 git pull: hace lo que hace git feach y git marge.
+
+//Crear y moverse entre ramas
+git branch /ramaName/: copia la rama master y crea una con el nombre /ramaName/, aqui se pueden realizar cambios
+(add, commits etc), sin afectar la rama master
+git checkout /ramaName/: me lleva a la rama señalada, si estoy en el head de master y me muevo a /ramaName/, veo
+su head, y para volver a la rama masteer en su version mas reciente ago lo mismo
