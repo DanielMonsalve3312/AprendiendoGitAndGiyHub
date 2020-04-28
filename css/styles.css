@@ -17,6 +17,9 @@
 .container .header h1 {
   margin: 0;
 }
+.container .header h2 {
+  margin: 0;
+}
 footer {
   background-color: aqua;
   color: blue;
