@@ -14,3 +14,12 @@
 .container .header h1 {
   margin: 0;
 }
+footer {
+  background-color: aqua;
+  color: blue;
+  height: 50px;
+}
+footer h4 {
+  margin: 0;
+  padding: 10px;
+}
