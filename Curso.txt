@@ -28,4 +28,15 @@ git pull: hace lo que hace git feach y git marge.
 git branch /ramaName/: copia la rama master y crea una con el nombre /ramaName/, aqui se pueden realizar cambios
 (add, commits etc), sin afectar la rama master
 git checkout /ramaName/: me lleva a la rama señalada, si estoy en el head de master y me muevo a /ramaName/, veo
-su head, y para volver a la rama masteer en su version mas reciente ago lo mismo
+su head, y para volver a la rama masteer en su version mas reciente ago lo mismo.
+
+//crear y eliminar tags(etiquetas)
+git tag -a /tagName/ -m "description" /commit de eferencia/: los tags sirven para ubicar las versiones mas importantes
+del proyecto, se usan en su mayoria en gitHub.
+git tag -d /tagName/: elimina el tag con el nombre /tagName/.
+/Para enviar tags al repositorio remoto:
+git push origin --tags: envia todos los tags a el origin.
+/para eliminar de remote origin:
+git push origin :refs/tags/tagName: lo elimina n el res remoto.
+//subir otras ramas:
+git push origin /branchName/: sube la rama /branchName/ a origin
