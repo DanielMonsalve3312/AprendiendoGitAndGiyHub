@@ -5,10 +5,13 @@
   font-family: "Segoe UI";
   box-shadow: -1px 6px 10px -6px black;
 }
+<<<<<<< HEAD
 
 .container p {
   color: blue;
 }
+=======
+>>>>>>> footer
 
 .container .header {
   text-align: center;
@@ -26,12 +29,18 @@
 }
 
 footer {
-  background-color: aqua;
-  color: blue;
-  height: 50px;
+  background-color: red;
+  color: #fff;
 }
 
 footer h4 {
   margin: 0;
+<<<<<<< HEAD
   padding: 10px;
+=======
+}
+
+footer p {
+  margin: 0;
+>>>>>>> footer
 }
